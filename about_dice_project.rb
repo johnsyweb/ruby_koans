@@ -6,7 +6,7 @@ class DiceSet
     def roll(number)
         @values = []
         number.times { 
-            @values << rand(6)
+            @values << rand(6) + 1
         }
     end
 end
